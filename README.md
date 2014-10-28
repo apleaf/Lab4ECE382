@@ -27,4 +27,16 @@ To test my code, i ran it on the MSP430 and checked each button.  The required f
 In conclusion of the lab, its not so hard to understand what needs to be done in C.  What makes it hard is figuring out the syntax for things and writing it correctly in the C format.
 
 
+###Answers to Questions
+What is the role of the extern directive in a .c file? Hint: check out the external variable Wikipedia page. 
+
+-allows C program to find function calls that are in external files. 
+
+
+
+What is the role of the .global directive in an .asm file (used in lines 28-32)? Hint: reference section 2.6.2 in the MSP 430 Assembly Language Tools v4.3 User's Guide. 
+
+-permits methods to be found and called by external files.
+
+
 Documentation:  I worked with C2C Jake Lawson and C2C Erik Thompson on the lab.  I had trouble figuring out the bouncing ball portion, and C2C Thompson showed me what I needed to change.
